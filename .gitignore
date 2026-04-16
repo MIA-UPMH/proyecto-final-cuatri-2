@@ -1,0 +1,60 @@
+.env
+.venv/
+.venv311/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+node_modules/
+dist/
+build/
+.DS_Store
+artifacts/
+api_data/
+postgres_data/
+airflow_logs/
+old/
+*.db
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfvars
+terraform/tfplan
+
+# Credentials - NEVER commit
+keys.txt
+*.pem
+*.key
+terraform/corte3-cnn-key
+terraform/corte3-cnn-key.pub
+
+# Large files
+*.tar
+*.zip
+files/
+
+# Model weights (too large for GitHub)
+*.pth
+*.pt
+*.onnx
+
+# Dataset images (stored in S3)
+docs/chest_xray/
+
+# Infrastructure (no subir al repo del profesor)
+terraform/
+airflow/
+api/
+frontend/
+docker-compose.yml
+docker-compose.prod.yml
+Caddyfile
+
+# Scripts de deploy internos
+scripts/deploy*.sh
+scripts/deploy*.ps1
+scripts/launch*.ps1
+scripts/cancel*.ps1

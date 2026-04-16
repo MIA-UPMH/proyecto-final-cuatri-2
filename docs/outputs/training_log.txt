@@ -1,0 +1,31 @@
+[11:11:31] Inicio entrenamiento | device=cpu | epochs=20 | lr=0.001 | params=25,784,835
+[11:11:31] Train: 1805 imgs | Val: 355 imgs
+[11:11:31] ----------------------------------------------------------------------
+[11:13:12] Epoch 01/20  loss=7.5760  acc=0.8482  val_loss=0.3025  val_acc=0.9437  lr=0.001000  t=101.0s
+[11:13:12]   ★ Nuevo mejor modelo guardado (val_acc=0.9437)
+[11:14:52] Epoch 02/20  loss=0.4337  acc=0.8992  val_loss=0.2040  val_acc=0.9127  lr=0.000994  t=99.4s
+[11:16:31] Epoch 03/20  loss=0.3024  acc=0.9058  val_loss=0.1702  val_acc=0.9465  lr=0.000976  t=99.4s
+[11:16:31]   ★ Nuevo mejor modelo guardado (val_acc=0.9465)
+[11:18:11] Epoch 04/20  loss=0.2654  acc=0.9147  val_loss=0.1130  val_acc=0.9606  lr=0.000946  t=99.6s
+[11:18:11]   ★ Nuevo mejor modelo guardado (val_acc=0.9606)
+[11:19:50] Epoch 05/20  loss=0.2501  acc=0.9296  val_loss=0.1516  val_acc=0.9380  lr=0.000905  t=99.4s
+[11:21:30] Epoch 06/20  loss=0.2043  acc=0.9269  val_loss=0.2430  val_acc=0.8958  lr=0.000855  t=99.5s
+[11:23:09] Epoch 07/20  loss=0.2051  acc=0.9319  val_loss=0.0819  val_acc=0.9690  lr=0.000796  t=99.5s
+[11:23:09]   ★ Nuevo mejor modelo guardado (val_acc=0.9690)
+[11:24:49] Epoch 08/20  loss=0.1780  acc=0.9452  val_loss=0.1560  val_acc=0.9324  lr=0.000730  t=99.7s
+[11:26:29] Epoch 09/20  loss=0.1956  acc=0.9368  val_loss=0.0912  val_acc=0.9718  lr=0.000658  t=99.7s
+[11:26:29]   ★ Nuevo mejor modelo guardado (val_acc=0.9718)
+[11:28:08] Epoch 10/20  loss=0.1809  acc=0.9463  val_loss=0.6100  val_acc=0.7324  lr=0.000582  t=99.5s
+[11:29:48] Epoch 11/20  loss=0.1604  acc=0.9468  val_loss=0.0625  val_acc=0.9859  lr=0.000505  t=99.5s
+[11:29:48]   ★ Nuevo mejor modelo guardado (val_acc=0.9859)
+[11:31:28] Epoch 12/20  loss=0.1244  acc=0.9518  val_loss=0.1022  val_acc=0.9493  lr=0.000428  t=99.8s
+[11:33:08] Epoch 13/20  loss=0.1278  acc=0.9579  val_loss=0.1289  val_acc=0.9465  lr=0.000352  t=99.9s
+[11:34:47] Epoch 14/20  loss=0.1329  acc=0.9524  val_loss=0.0773  val_acc=0.9775  lr=0.000280  t=99.8s
+[11:36:27] Epoch 15/20  loss=0.1221  acc=0.9679  val_loss=0.0910  val_acc=0.9634  lr=0.000214  t=99.7s
+[11:38:07] Epoch 16/20  loss=0.1045  acc=0.9673  val_loss=0.0442  val_acc=0.9831  lr=0.000155  t=100.1s
+[11:39:47] Epoch 17/20  loss=0.0871  acc=0.9668  val_loss=0.0515  val_acc=0.9831  lr=0.000105  t=100.0s
+[11:41:27] Epoch 18/20  loss=0.1001  acc=0.9690  val_loss=0.0421  val_acc=0.9831  lr=0.000064  t=100.0s
+[11:43:07] Epoch 19/20  loss=0.0967  acc=0.9651  val_loss=0.0397  val_acc=0.9831  lr=0.000034  t=99.9s
+[11:44:47] Epoch 20/20  loss=0.0832  acc=0.9740  val_loss=0.0403  val_acc=0.9831  lr=0.000016  t=100.3s
+[11:44:47] ----------------------------------------------------------------------
+[11:44:47] Entrenamiento completado en 1995.8s. Mejor val_acc=0.9859
