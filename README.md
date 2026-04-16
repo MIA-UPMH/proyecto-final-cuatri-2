@@ -3,7 +3,7 @@
 **Proyecto Final — Corte 3 | Aprendizaje Supervisado**  
 Maestría en Inteligencia Artificial · Segundo Cuatrimestre 2026
 
-**Autores:** Andres Bardales · [Nombre compañero/a]  
+**Autores:** Bardales Calva José Andrés · Olvera Gonzalez David  
 **Profesor:** Ernesto Garcia Amaro
 
 ---
